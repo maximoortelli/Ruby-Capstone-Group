@@ -103,11 +103,16 @@ Then, load the required files and start using the classes.
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Maximo Ortelli**
+
+- GitHub: [@maximoortelli](https://github.com/maximoortelli)
+- LinkedIn: [Maximo Ortelli](https://www.linkedin.com/in/maximo-ortelli-rueda/)
+
 👤 **Fisayo Michael Animashaun**
 
 - GitHub: [@fmanimashaun](https://github.com/fmanimashaun)
 - Twitter: [@fmanimashaun](https://twitter.com/fmanimashaun)
-- LinkedIn: [Fisayo Michael Animashaun ](https://linkedin.com/in/fmanimashaun)
+- LinkedIn: [Fisayo Michael Animashaun](https://linkedin.com/in/fmanimashaun)
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
