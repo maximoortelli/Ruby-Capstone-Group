@@ -80,9 +80,9 @@ To run this project, ensure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/fmanimashaun/catalog_of-items.git
+git clone https://github.com/maximoortelli/Ruby-Capstone-Group.git
 
-cd catalog_of_items
+cd Ruby-Capstone-Group
 
 bundle install
 ```
@@ -132,7 +132,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-[Issue Page](https://github.com/fmanimashaun/catalog_of_items/issues)
+[Issue Page](https://github.com/maximoortelli/Ruby-Capstone-Group/issues)
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
