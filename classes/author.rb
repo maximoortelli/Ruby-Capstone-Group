@@ -1,8 +1,8 @@
 require 'securerandom'
 
 class Author
-  attr_accessor :first_name, :last_name
   attr_reader :id
+  attr_accessor :first_name, :last_name, :items
 
   def initialize(params = {})
     @id = params['id'] || SecureRandom.uuid
@@ -12,7 +12,17 @@ class Author
   end
 
   def add_item(item)
-    @items.push(item)
+    @items << item
     item.author = self
+  end
+
+  def to_json(*_args)
+    {
+      'json_class' => self.class.name,
+      'id' => @id,
+      'first_name' => @first_name,
+      'last_name' => @last_name,
+      'items' => @items.map(&:id)
+    }.to_json
   end
 end
