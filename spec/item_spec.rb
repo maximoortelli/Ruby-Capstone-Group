@@ -4,10 +4,10 @@ require 'date'
 describe Item do
   before(:each) do
     @item = Item.new(
-      publish_date: (Date.today - (11 * 365)).strftime
+      'publish_date' => (Date.today - (11 * 365)).strftime
     )
     @item_recent = Item.new(
-      publish_date: (Date.today - (5 * 365)).strftime
+      'publish_date' => (Date.today - (5 * 365)).strftime
     )
   end
 
