@@ -1,3 +1,10 @@
+class Item
+  def can_be_archived
+    # Implementation of the can_be_archived method in the Item base class.
+    # In the future as member 1 I will place here the logic that determines if the item can be archived.
+  end
+end
+
 class Game < Item
   attr_accessor :multiplayer, :last_played_at
 
