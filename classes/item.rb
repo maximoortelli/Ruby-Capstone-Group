@@ -1,17 +1,18 @@
 require 'securerandom'
+require 'date'
 
 class Item
   attr_accessor :genre, :author, :source, :label, :publish_date, :archived
   attr_reader :id
 
   def initialize(params = {})
-    @id = params[:id] || SecureRandom.uuid
-    @genre = params[:genre] || nil
-    @author = params[:author] || nil
-    @source = params[:source] || nil
-    @label = params[:label] || nil
-    @publish_date = params[:publish_date]
-    @archived = params[:archived] || false
+    @id = params['id'] || SecureRandom.uuid
+    @genre = params['genre'] || nil
+    @author = params['author'] || nil
+    @source = params['source'] || nil
+    @label = params['label'] || nil
+    @publish_date = params['publish_date']
+    @archived = params['archived'] || false
   end
 
   def can_be_archived?
