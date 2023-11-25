@@ -1,11 +1,9 @@
-require 'securerandom'
-
 class Label
   attr_reader :id
   attr_accessor :title, :color, :items
 
   def initialize(params = {})
-    @id = params['id'] || SecureRandom.uuid
+    @id = params['id'] || Random.rand(1..1_000_000)
     @title = params['title']
     @color = params['color']
     @items = params['items'] || []

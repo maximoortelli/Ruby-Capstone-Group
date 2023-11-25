@@ -26,7 +26,7 @@ module Load
     return unless File.exist?('data/movies.json')
 
     JSON.parse(File.read('data/movies.json')).map do |movie|
-      movie_obj = JSON.parse(movie, create_additions: true)
+      movie_obj = movie.is_a?(Hash) ? Movie.new(movie) : JSON.parse(movie, create_additions: true)
       @items << movie_obj
       @movies << movie_obj
     end

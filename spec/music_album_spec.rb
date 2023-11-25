@@ -27,7 +27,7 @@ describe MusicAlbum do
     end
 
     it 'The initialize method should create an instance variable of id' do
-      expect(@music_album.instance_variable_get(:@id)).to be_a String
+      expect(@music_album.instance_variable_get(:@id)).to be_a Integer
     end
   end
 

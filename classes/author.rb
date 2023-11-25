@@ -1,11 +1,9 @@
-require 'securerandom'
-
 class Author
   attr_reader :id
   attr_accessor :first_name, :last_name, :items
 
   def initialize(params = {})
-    @id = params['id'] || SecureRandom.uuid
+    @id = params['id'] || Random.rand(1..1_000_000)
     @first_name = params['first_name']
     @last_name = params['last_name']
     @items = params['items'] || []

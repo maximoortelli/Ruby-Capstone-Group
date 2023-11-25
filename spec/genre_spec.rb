@@ -28,7 +28,7 @@ describe Genre do
     end
 
     it 'The initialize method should create an instance variable of id' do
-      expect(@genre.instance_variable_get(:@id)).to be_a String
+      expect(@genre.instance_variable_get(:@id)).to be_a Integer
     end
   end
 

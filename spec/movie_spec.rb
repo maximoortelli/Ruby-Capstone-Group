@@ -30,7 +30,7 @@ describe Movie do
     end
 
     it 'The initialize method should create an instance variable of id' do
-      expect(@movie.instance_variable_get(:@id)).to be_a String
+      expect(@movie.instance_variable_get(:@id)).to be_a Integer
     end
   end
 

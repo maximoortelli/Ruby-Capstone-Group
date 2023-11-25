@@ -33,7 +33,7 @@ describe Author do
     end
 
     it 'The initialize method should create an instance variable of id' do
-      expect(@author.instance_variable_get(:@id)).to be_a String
+      expect(@author.instance_variable_get(:@id)).to be_a Integer
     end
   end
 
