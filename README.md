@@ -5,6 +5,7 @@
 - [Catalog\_Of\_My\_Things (Ruby Console App)](#catalog_of_my_things-ruby-console-app)
   - [📗 Table of Contents](#-table-of-contents)
   - [📖 Catalog\_Of\_My\_Things ](#-catalog_of_my_things-)
+  - [🖥 Video ](#-video-)
   - [🛠 Tech-stack ](#-tech-stack-)
   - [🛠 Built With ](#-built-with-)
   - [Key Features ](#key-features-)
@@ -22,6 +23,9 @@
 ## 📖 Catalog_Of_My_Things <a name="about-project"></a>
 
 Welcome to the Catalog of My Things console app! This Ruby-based application allows you to manage collections of items you own, including books, music albums, movies, and games. You can keep track of various details about these items and perform tasks such as adding new items, listing items, and more.
+
+## 🖥 Video Presentation <a name="about-project"></a>
+[Click here to see the video](https://drive.google.com/file/d/1DzCBX6fW6Y92nS17RjBzFbSpe_QM4lSX/view?usp=sharing)
 
 ## 🛠 Tech-stack <a name="tech-stack"></a>
 
