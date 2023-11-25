@@ -5,7 +5,7 @@
 - [Catalog\_Of\_My\_Things (Ruby Console App)](#catalog_of_my_things-ruby-console-app)
   - [📗 Table of Contents](#-table-of-contents)
   - [📖 Catalog\_Of\_My\_Things ](#-catalog_of_my_things-)
-  - [🖥 Video ](#-video-)
+  - [🖥 Video Presentation ](#-video-project-)
   - [🛠 Tech-stack ](#-tech-stack-)
   - [🛠 Built With ](#-built-with-)
   - [Key Features ](#key-features-)
