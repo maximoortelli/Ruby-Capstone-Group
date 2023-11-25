@@ -1,11 +1,9 @@
-require 'securerandom'
-
 class Genre
   attr_reader :id
   attr_accessor :name, :items
 
   def initialize(params = {})
-    @id = params['id'] || SecureRandom.uuid
+    @id = params['id'] || Random.rand(1..1_000_000)
     @name = params['name']
     @items = params['items'] || []
   end

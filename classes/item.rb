@@ -1,4 +1,3 @@
-require 'securerandom'
 require 'date'
 
 class Item
@@ -6,7 +5,7 @@ class Item
   attr_reader :id
 
   def initialize(params = {})
-    @id = params['id'] || SecureRandom.uuid
+    @id = params['id'] || Random.rand(1..1_000_000)
     @genre = params['genre'] || nil
     @author = params['author'] || nil
     @source = params['source'] || nil
