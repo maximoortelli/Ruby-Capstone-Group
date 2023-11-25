@@ -23,53 +23,45 @@ class App
   # end
 
   def list_books
-    books = @items.select { |item| item.is_a?(Book) }
-
-    if books.empty?
+    if @books.empty?
       puts "\nNo books found."
       return
     end
     puts "\n=== List of All Books ==="
-    books.each_with_index do |book, index|
+    @books.each_with_index do |book, index|
       puts "\n#{index + 1}) #{book.publish_date} - #{book.publisher} - #{book.cover_state}"
     end
   end
 
   def list_music_albums
-    music_albums = @items.select { |item| item.is_a?(MusicAlbum) }
-
-    if music_albums.empty?
+    if @music_albums.empty?
       puts "\nNo music albums found."
       return
     end
     puts "\n=== List of All Music Album ==="
-    music_albums.each_with_index do |music_album, index|
+    @music_albums.each_with_index do |music_album, index|
       puts "\n#{index + 1}) #{music_album.publish_date} - #{music_album.on_spotify}"
     end
   end
 
   def list_movies
-    movies = @items.select { |item| item.is_a?(Movie) }
-
-    if movies.empty?
+    if @movies.empty?
       puts "\nNo movies found."
       return
     end
     puts "\n=== List of All Movies ==="
-    movies.each_with_index do |movie, index|
+    @movies.each_with_index do |movie, index|
       puts "\n#{index + 1}) #{movie.publish_date} - #{movie.silent}"
     end
   end
 
   def list_games
-    games = @items.select { |item| item.is_a?(Game) }
-
-    if games.empty?
+    if @games.empty?
       puts "\nNo games found."
       return
     end
     puts "\n=== List of All Games ==="
-    games.each_with_index do |game, index|
+    @games.each_with_index do |game, index|
       puts "\n#{index + 1}) #{game.publish_date} - #{game.multiplayer}"
     end
   end
