@@ -1,0 +1,17 @@
+[
+    {
+      "json_class": "Movie",
+      "id": 1,
+      "silent": true,
+      "publish_date": "2023-11-25",
+      "archived": false
+    },
+    {
+      "json_class": "Movie",
+      "id": 2,
+      "silent": false,
+      "publish_date": "2023-11-26",
+      "archived": true
+    }
+  ]
+  

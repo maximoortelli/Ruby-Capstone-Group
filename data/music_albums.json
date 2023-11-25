@@ -1,0 +1,1 @@
+["{\"json_class\":\"MusicAlbum\",\"id\":1,\"on_spotify\":true,\"publish_date\":\"2022-01-01\",\"archived\":false}","{\"json_class\":\"MusicAlbum\",\"id\":2,\"on_spotify\":false,\"publish_date\":\"2022-02-15\",\"archived\":true}","{\"json_class\":\"MusicAlbum\",\"id\":3,\"on_spotify\":true,\"publish_date\":\"2022-03-30\",\"archived\":false}"]
